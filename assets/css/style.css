@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color:#69CBA7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.img1{
+    object-fit: cover;
+    z-index: 2;
+    position: fixed;
+    margin-top: 65px;
+    
+
+}
+.simp{
+    object-fit: cover;
+    margin-top: 40px;
+}
+.logo{
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    left: 40px;
+    width: 76.89px;
+    height: 69.98px;
+    cursor: pointer;
+}
+.but1{
+    width: 115px;
+    height: 42px;
+    background-color: #ef2853;
+    color: white;
+    display: flex;
+    font-family: 'Heebo', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+    top: calc(26% - 25px);
+    cursor: pointer;
+    
+}
+.but1 p{
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    vertical-align: middle;
+    font-weight: 500;
+    position: absolute;
+    right: 23px;
+
+    
+    
+    
+    
+}
+.but1 i{
+    width: 26px ;
+    height: 26px;
+    color: white;
+    line-height: 1;
+    font-size: 24px;
+    position: absolute;
+    left: 8px;
+    
+    
+    
+    
+
+}
+.but2{
+    width: 115px;
+    height: 42px;
+    display: flex;
+    color: black;
+    background-color: white;
+    font-family: 'Heebo', sans-serif;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    right: 0%;
+    top: calc(26% + 25px);
+    cursor: pointer;
+}
+.but2 p{
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    vertical-align: middle;
+    font-weight: 500;
+    position: absolute;
+    right: 23px;
+
+}
+.but2 i{
+    width: 16px ;
+    height: 16px;
+    line-height: 1;
+    position: absolute;
+    left: 8px;
+    color: #ef2853 ;
+}
+.menu{
+    position: absolute;
+    right: 40px;
+    top: 28px;
+    cursor: pointer;
+}
+.menu i{
+    width: 54;
+    height: 31;
+    font-size: 54px;
+
+}
+.text{
+    font-family: 'Heebo', sans-serif;
+    position: absolute;
+    left: 38px;
+    bottom: 40px;
+}
+.text p{
+    font-size: 38px;
+    font-weight:600;
+    margin-bottom: 7px;
+    cursor:default;
+}
+.text .img img{
+    margin-top: 18px;
+}
+.text ul{
+    font-size: 18px;
+    position: absolute;
+    left: 33px;
+    bottom: 0px;
+    list-style-type: none;
+}
+.text ul li{
+    margin-top:13.10px ;
+    cursor: default;
+
+}
+.arrowle{
+    font-size: 55px;
+    position: absolute;
+    right: 109px;
+    bottom: 35px;
+    cursor: pointer;
+    
+}
+.arrowri{
+    font-size: 55px;
+    position: absolute;
+    right: 40px;
+    bottom: 35px;
+    cursor: pointer;
+
+}
+.arrowle:hover{
+    transform: translateX(-5px) ;
+    transition: all .3s ease-in-out;
+}
+
+
+
+.arrowri:hover{
+    transform: translateX(5px);
+    transition: all .3s ease-in-out;
+}
+
